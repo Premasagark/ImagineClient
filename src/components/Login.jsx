@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { assets } from "../assets/assets";
+import { assets } from "../assets/assets.js";
 import { AppContext } from "../context/AppContext";
 import { motion } from "motion/react";
 import axios from 'axios';
