@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: #f9fafb;
+  --color-primary-base: #3b82f6;
+  --color-secondary-base: #2563eb;
+  --color-primary-text: #111827;
+  --color-secondary-text: #6b7280;
+  --color-accent: #0ea5e9;
+  --color-shade: #e0e7ff;
+  --color-shade2: #b6cbf8;
+  --color-lightgrey: #b0b9c6;
+
+  --font-sans: "Outfit", sans-serif;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@layer base {
+  html,
+  body {
+    font-family: var(--font-sans);
+  }
+}
